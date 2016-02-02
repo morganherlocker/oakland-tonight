@@ -42,6 +42,11 @@ h3{
   text-decoration: none;
 }
 
+h4{
+  margin-top: 10px;
+  margin-bottom: 9px;
+}
+
 .venue-link {
   color: white;
   text-decoration: none;
