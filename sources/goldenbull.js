@@ -45,5 +45,3 @@ module.exports = function(done) {
     done(null, shows)
   })
 }
-
-module.exports
