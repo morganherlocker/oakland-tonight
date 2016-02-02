@@ -53,8 +53,8 @@ fs.readdir(__dirname+'/sources', function(err, dirs){
         if(i > 0) html += '<hr>'
         html += '<div class="show">'
         html += '<h4><a class="show-link" href="'+show.url+'">'+show.title+'</a></h4>'
-        html += '<div>'+show.time+'</div>'
-        if(show.price) html += '<div>'+show.price+'</div>'
+        html += '<div class="info">'+show.time+'</div>'
+        if(show.price) html += '<div class="info">'+show.price+'</div>'
         html += '</div>'
       })
     })
@@ -71,9 +71,9 @@ fs.readdir(__dirname+'/sources', function(err, dirs){
         if(i > 0) html += '<hr>'
         html += '<div class="show">'
         html += '<h4><a class="show-link" href="'+show.url+'">'+show.title+'</a></h4>'
-        html += '<div>'+show.date.split('-')[1]+'/'+show.date.split('-')[2]+'/'+show.date.split('-')[0]+'</div>'
-        html += '<div>'+show.time+'</div>'
-        if(show.price) html += '<div>'+show.price+'</div>'
+        html += '<div class="info">'+show.date.split('-')[1]+'/'+show.date.split('-')[2]+'/'+show.date.split('-')[0]+'</div>'
+        html += '<div class="info">'+show.time+'</div>'
+        if(show.price) html += '<div class="info">'+show.price+'</div>'
         html += '</div>'
       })
     })

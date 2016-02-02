@@ -114,3 +114,8 @@ hr {
   margin-top: -10px;
   font: 60px "", Helvetica, Arial, sans-serif;
 }
+
+.info {
+  padding-top: 2px;
+  padding-bottom: 3px;
+}
