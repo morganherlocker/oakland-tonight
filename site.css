@@ -107,6 +107,6 @@ hr {
 
 #date {
   float: right;
-  padding-top: 6px;
-  font: 28px "", Helvetica, Arial, sans-serif;
+  margin-top: -12px;
+  font: 60px "", Helvetica, Arial, sans-serif;
 }
