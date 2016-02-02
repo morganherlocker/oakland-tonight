@@ -1,0 +1,78 @@
+body {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top:10px;
+  font: 18px "", Helvetica, Arial, sans-serif;
+  line-height: 1;
+}
+
+@media screen and (max-width: 1000px){
+  body{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+@media screen and (max-width: 765px){
+  body{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+h1{
+  padding: 5px;
+}
+
+h1,h3{
+  color: white;
+  text-decoration:none;
+  background-color:black;
+}
+
+h3{
+  padding: 5px;
+}
+
+.show-link {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+.venue-link {
+  color: green;
+  text-decoration: none;
+}
+
+a {
+  color: green;
+}
+
+#home {
+  background-color: white;
+  color: black;
+  text-decoration:none;
+  font-size: 180%;
+}
+
+footer {
+  padding-top: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+hr {
+  border: 0;
+  background: #000;
+  height: 1px;
+}
+
+#about {
+  float: right;
+  margin-top: -55px;
+}
+
+

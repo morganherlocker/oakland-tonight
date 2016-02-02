@@ -1,0 +1,17 @@
+{
+  "name": "oakland-tonight",
+  "version": "1.0.0",
+  "description": "oakland venue scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "morganherlocker",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "moment": "^2.10.6",
+    "queue-async": "^1.0.7",
+    "request": "^2.65.0"
+  }
+}
