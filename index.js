@@ -62,7 +62,7 @@ fs.readdir(__dirname+'/sources', function(err, dirs){
     html += '</div>'
 
     html += '<h1>NEXT WEEK'
-    html += '<span id="date">' + moment().format('M/D') + '-' + moment().add(8, 'days').format('M/D') + '</span></h1>'
+    html += '<span id="date">' + moment().add(1, 'day').format('M/D') + '-' + moment().add(8, 'days').format('M/D') + '</span></h1>'
     html += '<div id="soon">'
 
     venues.forEach(function(venue){

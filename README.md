@@ -22,7 +22,7 @@ Sources are modules in `./sources` that return an array of shows in a callback v
   "venue": "name of venue",
   "venueURL": "venue URL",
   "title": "title of show",
-  "url": "show URL"
+  "url": "show URL",
   "date": "date of show in YYYY-MM-DD format",
   "time": "[optional] time of show",
   "price": "[optional] price of show",

@@ -22,8 +22,9 @@ module.exports = function(done) {
       var day = $(this).find('.dateFld').text()
         .split('\n').join('')
         .trim().split(' ')[1]
-        .split('/')[0]
+        .split('/')[1]
       if(day.length === 1) day = '0'+day
+
       show.date = year+'-'+month+'-'+day
 
       show.title = $(this).find('strong.title').text().trim()
