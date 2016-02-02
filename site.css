@@ -104,3 +104,9 @@ hr {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+#date {
+  float: right;
+  padding-top: 6px;
+  font: 28px "", Helvetica, Arial, sans-serif;
+}

@@ -28,7 +28,7 @@ fs.readdir(__dirname+'/sources', function(err, dirs){
     if(month.length === 1) month = '0' + month
     var day = today.getDate().toString()
     if(day.length === 1) day = '0' + day
-    var oneWeek = moment(year+'-'+month+'-'+day).add(7, 'days').format('YYYY-MM-DD')
+    var oneWeek = moment(year+'-'+month+'-'+day).add(8, 'days').format('YYYY-MM-DD')
 
     var venueHash = {};
     shows.forEach(function(show){
@@ -42,7 +42,9 @@ fs.readdir(__dirname+'/sources', function(err, dirs){
       return venueHash[key]
     })
 
-    var html = '<h1>TONIGHT</h1>'
+    var html = ''
+    html += '<h1>TONIGHT'
+    html += '<span id="date">' + moment().format('M/D') +'</span></h1>'
     html += '<div id="tonight">'
 
     venues.forEach(function(venue){
@@ -59,7 +61,8 @@ fs.readdir(__dirname+'/sources', function(err, dirs){
 
     html += '</div>'
 
-    html += '<h1>NEXT WEEK</h1>'
+    html += '<h1>NEXT WEEK'
+    html += '<span id="date">' + moment().format('M/D') + '-' + moment().add(8, 'days').format('M/D') + '</span></h1>'
     html += '<div id="soon">'
 
     venues.forEach(function(venue){
