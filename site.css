@@ -83,6 +83,7 @@ hr {
 }
 
 #about {
+  text-decoration:none;
   float: right;
   margin-top: -55px;
 }
