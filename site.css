@@ -34,7 +34,10 @@ h3{
   color: white;
   text-decoration:none;
   background-color:green;
-  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .show-link {
