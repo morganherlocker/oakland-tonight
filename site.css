@@ -21,27 +21,29 @@ body {
 }
 
 h1{
-  padding: 5px;
-}
-
-h1,h3{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   color: white;
   text-decoration:none;
   background-color:black;
 }
 
 h3{
+  color: white;
+  text-decoration:none;
+  background-color:green;
   padding: 5px;
 }
 
 .show-link {
-  color: white;
+  color: black;
   text-decoration: none;
-  background-color: black;
 }
 
 .venue-link {
-  color: green;
+  color: white;
   text-decoration: none;
 }
 
@@ -68,6 +70,8 @@ hr {
   border: 0;
   background: #000;
   height: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #about {
@@ -75,4 +79,23 @@ hr {
   margin-top: -55px;
 }
 
+#tonight {
+  padding-left: 20px;
+}
 
+#soon {
+  padding-left: 20px;
+}
+
+#logo {
+  height:70px;
+  width:70px;
+  margin-bottom:-14px;
+  display:inline;
+  padding-right: 12px;
+}
+
+.show {
+  padding-left: 20px;
+  padding-right: 20px;
+}
