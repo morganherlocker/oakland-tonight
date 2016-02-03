@@ -83,5 +83,7 @@ fs.readdir(__dirname+'/sources', function(err, dirs){
     page = page.split('{{content}}').join(html)
 
     fs.writeFileSync(__dirname+'/index.html', page)
+
+    childProcess.exec('git add .; git commit -m "refresh"; git push origin gh-pages;')
   })
 })
