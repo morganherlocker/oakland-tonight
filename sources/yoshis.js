@@ -6,7 +6,7 @@ var url = 'http://www.yoshis.com/calendar/'
 var shows = []
 
 module.exports = function(done) {
- /* childProcess.exec('curl --socks5 189.219.180.61:10000 '+url, function(err, stdout, stderr) {
+ /* childProcess.exec('curl --socks5 201.175.76.107:10000 '+url, function(err, stdout, stderr) {
     var $ = cheerio.load(stdout)
     $('.data.vevent').each(function(){
       var date = $(this).find('.value-title').attr('title').split('T')[0]
@@ -25,5 +25,5 @@ module.exports = function(done) {
     })
 */
     done(null, shows)
- // })
+// })
 }
