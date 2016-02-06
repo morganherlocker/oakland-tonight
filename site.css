@@ -20,16 +20,6 @@ body {
   }
 }
 
-h1{
-  padding-top: 15px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  color: white;
-  text-decoration:none;
-  background-color:black;
-}
-
 h3{
   color: white;
   text-decoration:none;
@@ -109,10 +99,17 @@ hr {
   padding-right: 20px;
 }
 
-#date {
+.date {
   float: right;
-  margin-top: -10px;
-  font: 60px "", Helvetica, Arial, sans-serif;
+}
+
+.navhead {
+  font: 40px "", Helvetica, Arial, sans-serif;
+  background-color:black;
+  color: white; 
+  padding: 10px;
+  height: 38px;
+  margin-top: 10px;
 }
 
 .info {

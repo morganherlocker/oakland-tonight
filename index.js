@@ -47,8 +47,10 @@ fs.readdir(__dirname+'/sources', function(err, dirs){
     })
 
     var html = ''
-    html += '<h1>TONIGHT'
-    html += '<span id="date">' + moment().format('M/D') +'</span></h1>'
+    html += '<div class="navhead">TONIGHT'
+    html += '<span class="date">' + moment().format('M/D') +'</span>'
+    html += '</div>'
+
     html += '<div id="tonight">'
 
     venues.forEach(function(venue){
@@ -65,8 +67,10 @@ fs.readdir(__dirname+'/sources', function(err, dirs){
 
     html += '</div>'
 
-    html += '<h1>NEXT WEEK'
-    html += '<span id="date">' + moment().add(1, 'day').format('M/D') + '-' + moment().add(8, 'days').format('M/D') + '</span></h1>'
+    html += '<div class="navhead">NEXT WEEK'
+    html += '<span class="date">' + moment().add(1, 'day').format('M/D') + '-' + moment().add(8, 'days').format('M/D') + '</span>'
+    html += '</div>'
+
     html += '<div id="soon">'
 
     venues.forEach(function(venue){
@@ -90,9 +94,9 @@ fs.readdir(__dirname+'/sources', function(err, dirs){
 
     log('info', 'wrote page')
 
-    childProcess.exec('git add .; git commit -m "refresh"; git push origin gh-pages;', function () {
+    //childProcess.exec('git add .; git commit -m "refresh"; git push origin gh-pages;', function () {
       log('info', 'pushed to github')
-    })
+    //})
   })
 })
 
