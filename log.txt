@@ -5,3 +5,15 @@
 [Sat Feb 06 2016 01:46:10 GMT-0500 (EST)] [info] fetching sources
 [Sat Feb 06 2016 01:46:12 GMT-0500 (EST)] [info] found 307 total shows
 [Sat Feb 06 2016 01:46:12 GMT-0500 (EST)] [info] wrote page
+[Sat Feb 06 2016 01:46:14 GMT-0500 (EST)] [info] pushed to github
+[Sat Feb 06 2016 01:55:01 GMT-0500 (EST)] [info] fetching sources
+[Sat Feb 06 2016 01:55:04 GMT-0500 (EST)] [info] found 307 total shows
+[Sat Feb 06 2016 01:55:04 GMT-0500 (EST)] [info] wrote page
+[Sat Feb 06 2016 01:55:04 GMT-0500 (EST)] [info] pushed to github
+[Sat Feb 06 2016 02:00:01 GMT-0500 (EST)] [info] fetching sources
+[Sat Feb 06 2016 02:00:04 GMT-0500 (EST)] [info] found 307 total shows
+[Sat Feb 06 2016 02:00:04 GMT-0500 (EST)] [info] wrote page
+[Sat Feb 06 2016 02:00:04 GMT-0500 (EST)] [info] pushed to github
+[Sat Feb 06 2016 02:01:09 GMT-0500 (EST)] [info] fetching sources
+[Sat Feb 06 2016 02:01:12 GMT-0500 (EST)] [info] found 307 total shows
+[Sat Feb 06 2016 02:01:12 GMT-0500 (EST)] [info] wrote page
