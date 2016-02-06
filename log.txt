@@ -2,3 +2,6 @@
 [Fri Feb 05 2016 22:43:38 GMT-0800 (PST)] [info] fetching sources
 [Fri Feb 05 2016 22:43:40 GMT-0800 (PST)] [info] found 307 total shows
 [Fri Feb 05 2016 22:43:40 GMT-0800 (PST)] [info] wrote page
+[Sat Feb 06 2016 01:46:10 GMT-0500 (EST)] [info] fetching sources
+[Sat Feb 06 2016 01:46:12 GMT-0500 (EST)] [info] found 307 total shows
+[Sat Feb 06 2016 01:46:12 GMT-0500 (EST)] [info] wrote page
