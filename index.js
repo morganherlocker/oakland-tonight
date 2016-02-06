@@ -5,6 +5,8 @@ var moment = require('moment')
 
 var page = fs.readFileSync(__dirname+'/template.html', 'utf8')
 
+log('info', 'fetching sources')
+
 fs.readdir(__dirname+'/sources', function(err, dirs){
   var q = queue(10)
   dirs.forEach(function(dir){
@@ -16,6 +18,8 @@ fs.readdir(__dirname+'/sources', function(err, dirs){
     results.forEach(function(venue){
       shows = shows.concat(venue)
     })
+
+    log('info', 'found '+shows.length+' total shows')
 
     shows.sort(function(a, b){
       if(a.date > b.date) return 1
@@ -84,6 +88,15 @@ fs.readdir(__dirname+'/sources', function(err, dirs){
 
     fs.writeFileSync(__dirname+'/index.html', page)
 
-    childProcess.exec('git add .; git commit -m "refresh"; git push origin gh-pages;')
+    log('info', 'wrote page')
+
+    childProcess.exec('git add .; git commit -m "refresh"; git push origin gh-pages;', function () {
+      log('info', 'pushed to github')
+    })
   })
 })
+
+function log(level, msg) {
+  process.stderr.write('['+new Date()+'] '+'['+level+'] '+ msg + '\n')
+  fs.appendFileSync(__dirname+'/log.txt','['+new Date()+'] '+'['+level+'] '+ msg +'\n')
+}

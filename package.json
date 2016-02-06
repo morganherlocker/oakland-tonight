@@ -2,6 +2,7 @@
   "name": "oakland-tonight",
   "version": "1.0.0",
   "description": "oakland venue scraper",
+  "repository": "https://github.com/morganherlocker/oakland-tonight/",
   "main": "index.js",
   "scripts": {
     "build": "node index.js"
