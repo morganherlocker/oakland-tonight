@@ -94,9 +94,9 @@ fs.readdir(__dirname+'/sources', function(err, dirs){
 
     log('info', 'wrote page')
 
-    //childProcess.exec('git add .; git commit -m "refresh"; git push origin gh-pages;', function () {
+    childProcess.exec('cd '+__dirname+';git add .; git commit -m "refresh"; git push origin gh-pages;', function () {
       log('info', 'pushed to github')
-    //})
+    })
   })
 })
 
