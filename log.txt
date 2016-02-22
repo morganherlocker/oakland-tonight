@@ -62,3 +62,7 @@
 [Sun Feb 21 2016 04:00:02 GMT-0500 (EST)] [info] fetching sources
 [Sun Feb 21 2016 04:00:07 GMT-0500 (EST)] [info] found 291 total shows
 [Sun Feb 21 2016 04:00:07 GMT-0500 (EST)] [info] wrote page
+[Sun Feb 21 2016 04:00:08 GMT-0500 (EST)] [info] pushed to github
+[Mon Feb 22 2016 04:00:01 GMT-0500 (EST)] [info] fetching sources
+[Mon Feb 22 2016 04:00:05 GMT-0500 (EST)] [info] found 289 total shows
+[Mon Feb 22 2016 04:00:05 GMT-0500 (EST)] [info] wrote page
