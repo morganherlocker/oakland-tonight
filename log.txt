@@ -131,3 +131,7 @@
 [Thu Mar 10 2016 04:00:01 GMT-0500 (EST)] [info] fetching sources
 [Thu Mar 10 2016 04:00:06 GMT-0500 (EST)] [info] found 306 total shows
 [Thu Mar 10 2016 04:00:06 GMT-0500 (EST)] [info] wrote page
+[Thu Mar 10 2016 04:00:10 GMT-0500 (EST)] [info] pushed to github
+[Fri Mar 11 2016 04:00:01 GMT-0500 (EST)] [info] fetching sources
+[Fri Mar 11 2016 04:00:05 GMT-0500 (EST)] [info] found 307 total shows
+[Fri Mar 11 2016 04:00:05 GMT-0500 (EST)] [info] wrote page
