@@ -252,3 +252,7 @@
 [Sun Apr 10 2016 04:00:01 GMT-0400 (EDT)] [info] fetching sources
 [Sun Apr 10 2016 04:00:04 GMT-0400 (EDT)] [info] found 265 total shows
 [Sun Apr 10 2016 04:00:04 GMT-0400 (EDT)] [info] wrote page
+[Sun Apr 10 2016 04:00:08 GMT-0400 (EDT)] [info] pushed to github
+[Mon Apr 11 2016 04:00:02 GMT-0400 (EDT)] [info] fetching sources
+[Mon Apr 11 2016 04:00:15 GMT-0400 (EDT)] [info] found 260 total shows
+[Mon Apr 11 2016 04:00:15 GMT-0400 (EDT)] [info] wrote page
