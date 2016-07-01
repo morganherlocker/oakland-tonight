@@ -563,3 +563,8 @@
 [Wed Jun 29 2016 04:00:02 GMT-0400 (EDT)] [info] fetching sources
 [Wed Jun 29 2016 04:00:07 GMT-0400 (EDT)] [info] found 275 total shows
 [Wed Jun 29 2016 04:00:07 GMT-0400 (EDT)] [info] wrote page
+[Wed Jun 29 2016 04:00:11 GMT-0400 (EDT)] [info] pushed to github
+[Thu Jun 30 2016 04:00:01 GMT-0400 (EDT)] [info] fetching sources
+[Fri Jul 01 2016 04:00:02 GMT-0400 (EDT)] [info] fetching sources
+[Fri Jul 01 2016 04:00:05 GMT-0400 (EDT)] [info] found 260 total shows
+[Fri Jul 01 2016 04:00:05 GMT-0400 (EDT)] [info] wrote page
