@@ -10,7 +10,7 @@
   "author": "morganherlocker",
   "license": "MIT",
   "dependencies": {
-    "cheerio": "^0.19.0",
+    "cheerio": "^0.22.0",
     "moment": "^2.10.6",
     "queue-async": "^1.0.7",
     "request": "^2.65.0"
