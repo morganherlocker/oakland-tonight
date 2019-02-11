@@ -5,14 +5,17 @@
   "repository": "https://github.com/morganherlocker/oakland-tonight/",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js"
+    "lint": "prettier --write ./*.js ./sources/*.js",
+    "build": "node index.js",
+    "dry": "DRY=1 node index.js"
   },
   "author": "morganherlocker",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^0.22.0",
+    "d3-queue": "^3.0.7",
     "moment": "^2.10.6",
-    "queue-async": "^1.0.7",
+    "prettier": "^1.16.1",
     "request": "^2.65.0"
   }
 }
