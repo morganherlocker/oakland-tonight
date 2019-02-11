@@ -13,7 +13,6 @@ module.exports = function(done) {
     const data = JSON.parse(body).data;
 
     shows = data.map(item => {
-      console.log(item);
       var show = {
         venue: "The Golden Bull",
         venueURL: "http://thegoldenbullbar.com/",
@@ -30,7 +29,7 @@ module.exports = function(done) {
 
       return show;
     });
-    console.log(shows);
+
     done(null, shows);
   });
 };

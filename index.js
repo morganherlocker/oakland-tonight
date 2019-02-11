@@ -83,7 +83,7 @@ fs.readdir(__dirname + "/sources", function(err, dirs) {
           '">' +
           show.title +
           "</a></h4>";
-        html += '<div class="info">' + show.time + "</div>";
+        if (show.time) html += '<div class="info">' + show.time + "</div>";
         if (show.price) html += '<div class="info">' + show.price + "</div>";
         html += "</div>";
       });
