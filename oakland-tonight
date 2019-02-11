@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# oakland-tonight cron daily
+
+set -e
+
+node ~/oakland-tonight/index.js
+
+exit 0
