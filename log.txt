@@ -636,3 +636,6 @@
 [Mon Feb 11 2019 15:18:30 GMT-0800 (Pacific Standard Time)] [info] found 123 total shows
 [Mon Feb 11 2019 15:18:30 GMT-0800 (Pacific Standard Time)] [info] wrote page
 [Mon Feb 11 2019 15:18:30 GMT-0800 (Pacific Standard Time)] [info] pushed to github
+[Tue Feb 12 2019 10:53:21 GMT-0800 (Pacific Standard Time)] [info] fetching sources
+[Tue Feb 12 2019 10:53:24 GMT-0800 (Pacific Standard Time)] [info] found 124 total shows
+[Tue Feb 12 2019 10:53:24 GMT-0800 (Pacific Standard Time)] [info] wrote page
