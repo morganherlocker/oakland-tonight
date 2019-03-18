@@ -790,3 +790,7 @@
 [Sun Mar 17 2019 12:00:01 GMT+0000 (Coordinated Universal Time)] [info] fetching sources
 [Sun Mar 17 2019 12:00:03 GMT+0000 (Coordinated Universal Time)] [info] found 96 total shows
 [Sun Mar 17 2019 12:00:03 GMT+0000 (Coordinated Universal Time)] [info] wrote page
+[Sun Mar 17 2019 12:00:08 GMT+0000 (Coordinated Universal Time)] [info] pushed to github
+[Mon Mar 18 2019 12:00:01 GMT+0000 (Coordinated Universal Time)] [info] fetching sources
+[Mon Mar 18 2019 12:00:03 GMT+0000 (Coordinated Universal Time)] [info] found 95 total shows
+[Mon Mar 18 2019 12:00:03 GMT+0000 (Coordinated Universal Time)] [info] wrote page
